@@ -1,0 +1,119 @@
+<html><head><style>body {
+   color: black;
+}
+</style></head><body><h2 id="levan-natchkebia">LEVAN NATCHKEBIA</h2>
+<hr>
+<h3 id="contact-details">Contact Details</h3>
+<hr>
+<ul>
+<li><strong>Location:</strong> Tbilisi, Georgia</li>
+<li><strong>Mob:</strong> +995 568 61 67 87</li>
+<li><strong>Email:</strong> levani.nachkebia@gmail.com</li>
+<li><strong>Telegram:</strong> Levan Natchkebia</li>
+<li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/levan-natchkebia-65b861242/">Levan Natchkebia</a></li>
+<li><strong>GitHub:</strong> <a href="https://github.com/LevanNatchkebia">LevanNatchkebia </a></li>
+</ul>
+<hr>
+<p><strong>About Myself:</strong>
+I am Levan jr. Front-end developer.I am enthusiastic about kickstarting my career in web development.
+With a solid foundation in HTML5, CSS3, JavaScript, I am eager to apply my skills to create visually
+appealing and responsive websites. I have also started exploring React, React Router, and Redux for
+building more interactive user interfaces. My familiarity with C++ and SQL provides a well-rounded
+understanding of programming and data management. I am eager to join a supportive team where I can
+learn and grow as a developer while contributing my passion and dedication to web projects.</p>
+<hr>
+<h2 id="-education-"><strong>Education:</strong></h2>
+<ul>
+<li><strong>Tbilisi Medical Academy:</strong>
+Specialization: Doctor Of Medicine (MD);</li>
+</ul>
+<hr>
+<p><strong>Courses</strong></p>
+<ul>
+<li><p><strong>RSSchool</strong> :
+JavaScript/Front-End Course EN 2023Q4</p>
+</li>
+<li><p><strong>SkllWIll</strong>:
+Front-End Development (React.JS)</p>
+</li>
+<li><p><strong>Cisco</strong>:
+Javascript Essential 1</p>
+</li>
+<li><p><strong>GITA (New Horizon)</strong>:
+Blockchain and Business Fundamental</p>
+</li>
+<li><p><strong>IT Step Academy</strong>:
+Graphic Design (Illustrator)</p>
+</li>
+</ul>
+<hr>
+<p><strong>Languages:</strong></p>
+<ul>
+<li>Georgian: Native;</li>
+<li>English: C1;</li>
+<li>German: B1;</li>
+</ul>
+<hr>
+<p><strong>Skills:</strong></p>
+<ul>
+<li>CSS</li>
+<li>HTML</li>
+<li>JavaScript</li>
+<li>Git, GitHub</li>
+<li>React.js</li>
+<li>Figma</li>
+<li>WordPRess</li>
+<li>C++ basics</li>
+<li>Markdown</li>
+<li>C# .Net Basics</li>
+<li>SQL </li>
+<li>Communication Skills</li>
+<li>Provlem Solving </li>
+<li>Team Working</li>
+</ul>
+<hr>
+<p><strong>Code Example:</strong></p>
+<h2 id="-vanilla-js-"><strong>Vanilla.JS</strong></h2>
+<p>const inputField = document.querySelector(&#39;.search-field&#39;);
+const placeholderTexts = [
+    &quot;სახელი , გვარი&quot;,
+    &quot;პოზიცია&quot;,
+];</p>
+<p>let currentTextIndex = 0;
+let currentIndex = 0;</p>
+<p>function typeAndBackspacePlaceholder() {
+    const currentText = placeholderTexts[currentTextIndex];
+    if (currentIndex &lt; currentText.length) {
+        const currentPlaceholder = inputField.getAttribute(&#39;placeholder&#39;);
+        inputField.setAttribute(&#39;placeholder&#39;, currentPlaceholder + currentText.charAt(currentIndex));
+        currentIndex++;
+        setTimeout(typeAndBackspacePlaceholder, 120); 
+    } else {
+        erasePlaceholder(currentText);
+    }
+}</p>
+<p>function erasePlaceholder(text) {
+    if (text.length &gt; 0) {
+        const newText = text.substring(0, text.length - 1);
+        inputField.setAttribute(&#39;placeholder&#39;, newText);
+        setTimeout(() =&gt; erasePlaceholder(newText), 50); 
+    } else {
+        currentTextIndex = (currentTextIndex + 1) % placeholderTexts.length;
+        currentIndex = 0;
+        setTimeout(typeAndBackspacePlaceholder, 500); 
+    }
+}</p>
+<p>typeAndBackspacePlaceholder();</p>
+<hr>
+<p><strong>Experience:</strong></p>
+<ul>
+<li>Front-End Developer in RICO GROUP</li>
+</ul>
+<p><strong>Projects:</strong></p>
+<ul>
+<li><a href="https://levannatchkebia.github.io/Type-Master/">Responsive Markup Page</a></li>
+<li><a href="https://github.com/LevanNatchkebia/CPP-OnlineStore">Online Car Shop</a></li>
+<li><a href="https://github.com/LevanNatchkebia/Roman-Calculator">Roman Calculator</a></li>
+<li><a href="https://levannatchkebia.wordpress.com/">Portfolio</a></li>
+</ul>
+</body></html>
