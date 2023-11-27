@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-Levan Natchkebia</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="logo_div">
+                <a href="https://rs.school/" target="_blank">
+                    <img src="./assets/logo-rsschool3.png" alt="Logo" class="logo">
+                </a>
+                <img src="./assets/solidarity-Ukraine.svg" alt="Stand with Ukraine">
+            </div>
+
+            <ul>
+                <li>
+                    <a href="#about">ABOUT ME</a>
+                </li>
+                <li>
+                    <a href="#education">EDUCATON</a>
+                </li>
+                <li>
+                    <a href="#skills">SKILLS</a>
+                </li>
+                <li>
+                    <a href="#projects">PROJECTS</a>
+                </li>
+           </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="about_me" id="about">
+            <div class="wrapper">
+                <img src="./assets/levan.jpg" alt="Profle" class="profile_img"/>
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="clearfix"></div>
+            </div>        
+            <div class="summary">
+                <h1>LEVAN NATCHKEBIA</h1>
+                <p> I am Levan jr. Front-end developer.I am enthusiastic about kickstarting my career in web development. With a solid foundation in HTML5, CSS3, JavaScript, I am eager to apply my skills to create visually appealing and responsive websites. I have also started exploring React, React Router, and Redux for building more interactive user interfaces. My familiarity with C++ and SQL provides a well-rounded understanding of programming and data management. I am eager to join a supportive team where I can learn and grow as a developer while contributing my passion and dedication to web projects.</p>
+            </div>
+        </section>
+        <div class="address">
+            <ul>
+                <li>
+                    Location: <span class="city">Tbilisi, Georgia</span>
+                </li>
+                <li>
+                    Mobile: <a href="tel:568616787" >(+995) 568 616 787</a>
+                </li>
+                <li>
+                    Email: <a href="mailto:levani.nachkebia@gmail.com">levani.nachkebia@gmail.com</a>
+                </li>
+                <li>
+                    Linkedin: <a href="https://www.linkedin.com/in/levan-natchkebia-65b861242/">Levan Natchkebia</a>
+                </li>
+                <li>
+                    GitHub: <a href="https://github.com/LevanNatchkebia">Levan Natchkebia</a>
+                </li>
+            </ul>
+            <p class="ads">SCROLL DOWN FOR MORE INFORMATION<i class="fa fa-arrow-down" aria-hidden="true"></i></p>
+        </div>
+        <section class="education" id="education">
+            <h2 >EDUCATON</h2>
+            <ul>
+                <li>
+                    Tbilisi Medical Academy: <span> Specialization: Doctor Of Medicine (MD); </span>
+                </li>
+            </ul>
+            <h3>OTHER COURSES</h3>
+            <ul class="other_courses">
+                <li>
+                    RSSchool : <span>JavaScript/Front-End Course EN 2023Q4</span>
+                </li>
+                <li>
+                    Skllwill: <span>Front-End Development (React.JS)</span>
+                </li>
+                <li>
+                    Cisco: <span>Javascript Essential 1</span>
+                </li>
+                <li>
+                    GITA (New Horizon): <span>Blockchain and Business Fundamental</span>
+                </li>
+                <li>
+                    IT Step Academy: <span>Graphic Design (Illustrator)</span>
+                </li>
+            </ul>
+        </section>
+        <section class="flex-skill-lang clearfix" id="skills">
+            <div class="skills-lang clearfix">
+                <h2> &lt;SKILLS&gt;</h2>
+                <ul>
+                    <li class="skill-percentage"> HTML5 </li>
+                    <li class="skill-percentage"> CSS3 </li>
+                    <li class="skill-percentage"> JavaScript (ES6+) </li>
+                    <li class="skill-percentage"> GIT, GitHub </li>
+                    <li class="skill-percentage"> React.JS </li>
+                    <li class="skill-percentage"> Figma </li>
+                    <li class="skill-percentage"> WordPress </li>
+                    <li class="skill-percentage"> C++ basics</li>
+                    <li class="skill-percentage">Markdown</li>
+                    <li class="skill-percentage">C# .Net basics</li>
+                    <li class="skill-percentage">SQL</li>
+                    <li class="skill-percentage">Communication Skills</li>
+                    <li class="skill-percentage">Problem Solving</li>
+                    <li class="skill-percentage">Team Working</li>
+                </ul>
+                <h2 class="skill_close_tag"> &lt;/SKILLS&gt; </h2> 
+            </div>
+            <div class="langs clearfix">
+                <h2>LANGUAGES</h2>
+                <ul>
+                    <li class="lang-percentage">Georgian</li>
+                    <li class="lang-percentage">English</li>
+                    <li class="lang-percentage">German</li>
+                </ul>
+            </div>
+        </section>
+        <section class="js-code" id="snippet">
+            <h2>Latest Vanilla.JS code snippet</h2>
+            <p>const inputField = document.querySelector(‘.search-field’); const placeholderTexts = [ “სახელი , გვარი”, “პოზიცია”, ];
+
+                let currentTextIndex = 0; let currentIndex = 0;
+                
+                function typeAndBackspacePlaceholder() { const currentText = placeholderTexts[currentTextIndex]; if (currentIndex &lt; currentText.length) { const currentPlaceholder = inputField.getAttribute(‘placeholder’); inputField.setAttribute(‘placeholder’, currentPlaceholder + currentText.charAt(currentIndex)); currentIndex++; setTimeout(typeAndBackspacePlaceholder, 120); } else { erasePlaceholder(currentText); } }
+                
+                function erasePlaceholder(text) { if (text.length > 0) { const newText = text.substring(0, text.length - 1); inputField.setAttribute(‘placeholder’, newText); setTimeout(() => erasePlaceholder(newText), 50); } else { currentTextIndex = (currentTextIndex + 1) % placeholderTexts.length; currentIndex = 0; setTimeout(typeAndBackspacePlaceholder, 500); } }
+                
+                typeAndBackspacePlaceholder();</p>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2 class="projects-header">PROJECTS</h2>
+            <div class="project1">
+                <a href="https://levannatchkebia.github.io/Equalizer-Responsive/" target="_blank">
+                    <img src="./assets/project1.PNG" alt="project1">
+                </a>
+            </div>
+            <div class="project2">
+                <a href="https://levannatchkebia.github.io/Playstation-responsive/" target="_blank">
+                    <img src="./assets/project2.PNG" alt="project2">
+                </a>
+            </div>
+            <div class="project3">
+                <a href="https://levannatchkebia.github.io/4-Card/" target="_blank">
+                    <img src="./assets/project3.PNG" alt="project3">
+                </a>
+            </div>
+            <div class="project4">
+                <a href="https://levannatchkebia.github.io/Type-Master/" target="_blank">
+                    <img src="./assets/project4.PNG" alt="project4">
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div>
+            <a href="https://rs.school/" target="_blank">
+                <img src="./assets/logo-rsschool3.png" alt="Logo" class="logo">
+            </a>
+            <img src="./assets/solidarity-Ukraine.svg" alt="solidarity ukraine">
+        </div>
+        <div>
+            <p><i class="fa-regular fa-copyright"></i> 2023</p>
+        </div>
+        <div class="social-media">
+            <a href="https://github.com/LevanNatchkebia" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/levan-natchkebia-65b861242/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/levan.natchkebia/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
