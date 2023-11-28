@@ -126,7 +126,7 @@
         </section>
         <section class="js-code" id="snippet">
             <h2>Latest Vanilla.JS code snippet</h2>
-            <p>const inputField = document.querySelector(‘.search-field’); const placeholderTexts = [ “სახელი , გვარი”, “პოზიცია”, ];
+            <code>const inputField = document.querySelector(‘.search-field’); const placeholderTexts = [ “სახელი , გვარი”, “პოზიცია”, ];
 
                 let currentTextIndex = 0; let currentIndex = 0;
                 
@@ -134,7 +134,7 @@
                 
                 function erasePlaceholder(text) { if (text.length > 0) { const newText = text.substring(0, text.length - 1); inputField.setAttribute(‘placeholder’, newText); setTimeout(() => erasePlaceholder(newText), 50); } else { currentTextIndex = (currentTextIndex + 1) % placeholderTexts.length; currentIndex = 0; setTimeout(typeAndBackspacePlaceholder, 500); } }
                 
-                typeAndBackspacePlaceholder();</p>
+                typeAndBackspacePlaceholder();</code>
         </section>
 
         <section class="projects" id="projects">
