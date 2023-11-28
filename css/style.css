@@ -459,7 +459,7 @@ h1 {
     margin-bottom: 1rem;
 }
 
-.js-code p {
+.js-code code {
     font-size: 1.2em;
     line-height: 2rem;
     margin-top: 3rem;
